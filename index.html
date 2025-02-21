@@ -2,10 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My GitHub Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is my GitHub Pages site.</p>
+    <header>
+        <h1>📖 Application Documentation</h1>
+        <button id="theme-toggle">🌙 Toggle Theme</button>
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="search" placeholder="🔍 Search documentation...">
+    </div>
+
+    <main>
+        <section class="category">
+            <h2>📌 Getting Started</h2>
+            <ul>
+                <li><a href="introduction.html">Introduction</a></li>
+                <li><a href="installation.html">Installation Guide</a></li>
+                <li><a href="quickstart.html">Quick Start</a></li>
+            </ul>
+        </section>
+
+        <section class="category">
+            <h2>⚙️ Configuration</h2>
+            <ul>
+                <li><a href="settings.html">Application Settings</a></li>
+                <li><a href="database.html">Database Setup</a></li>
+                <li><a href="security.html">Security Best Practices</a></li>
+            </ul>
+        </section>
+
+        <section class="category">
+            <h2>🛠 API Documentation</h2>
+            <ul>
+                <li><a href="api-overview.html">API Overview</a></li>
+                <li><a href="authentication.html">Authentication</a></li>
+                <li><a href="endpoints.html">Endpoints & Usage</a></li>
+            </ul>
+        </section>
+
+        <section class="category">
+            <h2>📚 Additional Resources</h2>
+            <ul>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="troubleshooting.html">Troubleshooting</a></li>
+                <li><a href="contact.html">Contact Support</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Application | <a href="about.html">About</a></p>
+    </footer>
 </body>
 </html>
